@@ -1,0 +1,6 @@
+project: risk_intervention
+registry: data/registry.db
+provider: local
+online_store:
+  type: redis
+  connection_string: ${REDIS_URL}

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Data
+*.csv
+!leakage_report.csv
+!sample_submission.csv
+!artifacts/*.csv
+!data/*.json
+
+# Large CSVs specifically (just in case)
+application_train.csv
+bureau.csv
+bureau_balance.csv
+credit_card_balance.csv
+installments_payments.csv
+POS_CASH_balance.csv
+previous_application.csv
+
+# Logs
+logs/
+*.log
+
+# Blobs
+*.pdf
+!project_proposal_report.pdf
+
+# OS
+.DS_Store
+Thumbs.db
