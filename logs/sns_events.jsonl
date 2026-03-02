@@ -1,0 +1,3 @@
+{"timestamp": "2026-02-12T09:23:43.421124", "TopicArn": "arn:aws:sns:region:123:topic", "Message": "Hello World", "Subject": "Test Subject"}
+{"timestamp": "2026-02-12T09:30:45.434666", "TopicArn": "arn:aws:sns:local:simulation", "Message": "{\"customer_id\": 100045, \"action\": \"call\", \"reason\": \"Test Alert from Verification Script\"}", "Subject": "Risk Intervention (Simulated)"}
+{"timestamp": "2026-02-13T16:34:31.389031", "TopicArn": "arn:aws:sns:local:simulation ", "Message": "{\"customerId\": 100045, \"action\": \"call\", \"reason\": \"Test Alert from Verification Script\"}", "Subject": "Risk Intervention (Simulated)"}

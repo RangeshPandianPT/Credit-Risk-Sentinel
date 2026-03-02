@@ -5,10 +5,10 @@ import json
 import shutil
 from pathlib import Path
 
-# Add parent directory to path to import phase3_risk_api
+# Add parent directory to path to import src
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from phase3_risk_api import FileBasedCache, FileBasedSNS
+from src.phase3_risk_api import FileBasedCache, FileBasedSNS
 
 def test_file_based_cache():
     print("Testing FileBasedCache...")
